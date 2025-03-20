@@ -17,15 +17,15 @@ socketDepths = [ [ 37, 38, 38, 38, 38, 38, 38] , [ 38, 38, 38, 38, 38, 42.3 ]  ]
 socketLabels = [ [ "10", "11", "12", "13" , "14" , "15", "16"  ] , [  "17", "19", "21", "22" , "24", "27"] ] ;
 
  // 1 = raised text, anything else = sunken text
-raisedText = 0;
-fontExtrude = 1;
-text_size = 5;
-text_space_offset = 2;
+raisedText = 1;
+fontExtrude = .5;
+text_size = 4;
+text_space_offset = 0;
 
 
 // Height of each step
-grabLength = 10;
-bottomThickness = 20;
+grabLength = 18;
+bottomThickness = 0;
 
 // Height of Chamfer. 0 for no chamfer
 chamfer = 0;
@@ -47,8 +47,8 @@ joinerindent = 10;
 joinertolerance = 0.25;
 
 // all , text , body 
-//multi_material = "all";
-//multi_material = "text";
+// multi_material = "all";
+// multi_material = "text";
 //multi_material = "body";
 
 
